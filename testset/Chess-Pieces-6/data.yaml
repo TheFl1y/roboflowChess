@@ -1,0 +1,24 @@
+names:
+- bishop
+- black-bishop
+- black-king
+- black-knight
+- black-pawn
+- black-queen
+- black-rook
+- white-bishop
+- white-king
+- white-knight
+- white-pawn
+- white-queen
+- white-rook
+nc: 13
+roboflow:
+  license: Public Domain
+  project: chess-full-msv61
+  url: https://app.roboflow.com/encheng/chess-full-msv61/6
+  version: 6
+  workspace: encheng
+test: test/images
+train: train/images
+val: valid/images
