@@ -78,6 +78,9 @@ The saved training run uses YOLOv8s pretrained weights for 25 epochs with an inp
 
 The easiest way to run the project is to select **Open in Colab** at the top of this page and switch the Colab runtime to a GPU. The notebook covers package installation, dataset download, model training, validation, inference, and a Roboflow deployment example.
 
+在 Colab 執行前，請先在左側「Secrets」新增名稱為 `ROBOFLOW_API_KEY` 的金鑰，並允許 notebook 存取。
+Before running in Colab, add your key as `ROBOFLOW_API_KEY` under **Secrets** and grant notebook access.
+
 ### 本機安裝｜Local Installation
 
 ```bash
